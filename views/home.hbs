@@ -1,0 +1,22 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>Trails</title>
+    <link rel="stylesheet" href="/public/css/mainstyles.css">
+  </head>
+  <body> 
+    <div id="wrapper">
+      <div class="first-container">
+        <h1><span class="gradient-text"><sub>Trails</sub><sup>of </sup></span>Washington</h1>
+        <hr>
+    <h3>Trails</h3>
+    {{#each trails}}
+    <li><a href="/detail?trailname={{trailname}}"></a></li>
+    {{/each}}
+      </div>
+
+    </div>
+  </body>
+</html>
